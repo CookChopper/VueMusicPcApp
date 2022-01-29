@@ -1,0 +1,28 @@
+html,body{
+  margin: 0;
+  padding: 0;
+}
+
+ul,li{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a{
+  display: block;
+  color: #2C3E50;
+  text-decoration: none;
+}
+
+div,p{
+  margin: 0;
+  padding: 0;
+}
+
+.el-tabs__nav-wrap::after{
+  z-index: auto!important;
+}
+.el-tabs__nav{
+  z-index: auto!important;
+}
